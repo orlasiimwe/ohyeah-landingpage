@@ -433,6 +433,11 @@ letter-spacing: -0.05em;
   white-space: nowrap;
 
 }
+ .header-text h1{
+   letter-spacing: normal !important;
+   margin-top: 1rem !important;
+   font-size: 2rem !important;
+ }
  
   }
   @media only screen 
