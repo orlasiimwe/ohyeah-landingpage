@@ -15,12 +15,12 @@ font-style: normal;
 
 @font-face {
   font-family: 'Gilroy-Black';
-  src: url('fonts/Gilroy-Black.eot'); /* IE9 Compat Modes */
-  src: url('fonts/Gilroy-Black.eot') format('embedded-opentype'), /* IE6-IE8 */
-      url('fonts/Gilroy-Black.woff2') format('woff2'), /* Super Modern Browsers */
-      url('fonts/Gilroy-Black.woff') format('woff'), /* Pretty Modern Browsers */
-      url('fonts/Gilroy-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
-      url('fonts/Gilroy-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/Gilroy-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Gilroy-Bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+      url('fonts/Gilroy-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+      url('fonts/Gilroy-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+      url('fonts/Gilroy-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('fonts/Gilroy-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
   font-weight: 300;
   font-style: normal;
   }
