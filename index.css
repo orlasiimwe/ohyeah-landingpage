@@ -434,7 +434,7 @@ letter-spacing: -0.05em;
 
 }
  .header-text h1{
-   letter-spacing: normal !important;
+   letter-spacing: -0.07rem !important;
    margin-top: 1rem !important;
    font-size: 2rem !important;
  }
