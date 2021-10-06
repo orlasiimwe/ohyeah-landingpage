@@ -3,12 +3,12 @@
 
 @font-face {
 font-family: 'Gilroy';
-src: url('fonts/Gilroy-Light.eot'); /* IE9 Compat Modes */
-src: url('fonts/Gilroy-Light.eot') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/Gilroy-Light.woff2') format('woff2'), /* Super Modern Browsers */
-    url('fonts/Gilroy-Light.woff') format('woff'), /* Pretty Modern Browsers */
-    url('fonts/Gilroy-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('fonts/Gilroy-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+src: url('fonts/Gilroy-Regular.eot'); /* IE9 Compat Modes */
+src: url('fonts/Gilroy-Regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Gilroy-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/Gilroy-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/Gilroy-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Gilroy-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 font-weight: 500;
 font-style: normal;
 }
@@ -21,17 +21,17 @@ font-style: normal;
       url('fonts/Gilroy-Black.woff') format('woff'), /* Pretty Modern Browsers */
       url('fonts/Gilroy-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
       url('fonts/Gilroy-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   }
   @font-face {
     font-family: 'Gilroy-Bold';
-    src: url('fonts/Gilroy-ExtraBold.eot'); /* IE9 Compat Modes */
-    src: url('fonts/Gilroy-ExtraBold.eot') format('embedded-opentype'), /* IE6-IE8 */
-        url('fonts/Gilroy-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
-        url('fonts/Gilroy-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
-        url('fonts/Gilroy-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('fonts/Gilroy-ExtraBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('fonts/Gilroy-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gilroy-SemiBold.woff') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/Gilroy-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/Gilroy-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/Gilroy-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/Gilroy-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
     /* font-weight: 300; */
     font-style: normal;
     }
@@ -169,7 +169,7 @@ font-style: normal;
     .header-text h1{
       font-size: 3rem;
       line-height: 96.7%;    
-      letter-spacing: -0.05em;     
+      letter-spacing: -0.01em;     
       color: #FFFFFF;
       font-family: 'Gilroy-Black', sans-serif;
     }
@@ -270,12 +270,12 @@ font-style: normal;
   .heading h4{
     color: #EAB2BC;
     letter-spacing: -0.05em;
-    /* max-width: 586px; */
-    font-weight: 900 !important;
+    font-family: Gilroy-Bold, sans-serif;
   }
   .heading p{
     letter-spacing: -0.05em;
     color: #8E8E8E;
+  
   }
   .heading span{
     color:#F3BA87;
@@ -381,8 +381,13 @@ letter-spacing: -0.05em;
       padding: 16px 0;
     }
     
+    .slanted-divb:after {
+      bottom: 0;
+      transform-origin: right bottom;
+      transform: skewY(-5deg);
+    }
     footer {
-      padding: 6px 0 1px 0;
+      padding: 2px 0 1px 0;
     }
       
     h1 {
